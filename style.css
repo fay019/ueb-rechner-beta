@@ -1,0 +1,145 @@
+
+.container {
+    height:90vh;
+    background-color: #aeb0af;
+}
+.calculatrices {
+    position: relative;
+}
+.image {
+    width:360px;
+    height: auto;
+    position: absolute;
+    left: 0;
+
+}
+.btn {
+    position: absolute;
+    width: 42px;
+    height: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.screenOutMini {
+    font-size: .65em;
+    position: absolute;
+    text-align: left;
+    left: 94px;
+    top: 60px;
+    width: 170px;
+    height: 15px;
+    /* 32 string + dot */
+}
+.screenOut {
+    font-size: 1.45em;
+    position: absolute;
+    text-align: right;
+    left: 92px;
+    top: 74px;
+    width: 170px;
+    height: 28px;
+    /* 14 string + dot */
+}
+div.btn-s {
+    width: 36px;
+    height: 22px;
+}
+div.btn:hover {
+    border: 1px solid rgba(148, 147, 147, 0.35);
+    background-color: rgba(148, 147, 147, 0.35);
+    box-shadow: 0 0 3px 3px rgba(148, 147, 147, 0.35);
+
+}
+div.btn-clear {
+    left: 257px;
+    top: 193px;
+}
+div.btn0 {
+    left: 108px;
+    top: 463px;
+}
+div.btn-dot {
+    left: 158px;
+    top: 463px;
+}
+div.btn-plus-moins {
+    left: 208px;
+    top: 463px;
+}
+div.btn-egal {
+    left: 257px;
+    top: 463px;
+}
+div.btn1 {
+    left: 108px;
+    top: 423px;
+}
+div.btn2 {
+    left: 158px;
+    top: 423px;
+}
+div.btn3 {
+    left: 208px;
+    top: 423px;
+}
+div.btn-plus {
+    left: 257px;
+    top: 423px;
+}
+div.btn4 {
+    left: 108px;
+    top: 384px;
+}
+div.btn5 {
+    left: 158px;
+    top: 384px;
+}
+div.btn6 {
+    left: 208px;
+    top: 384px;
+}
+div.btn-moins {
+    left: 257px;
+    top: 384px;
+}
+div.btn7 {
+    left: 108px;
+    top: 345px;
+}
+div.btn8 {
+    left: 158px;
+    top: 345px;
+}
+div.btn9 {
+    left: 208px;
+    top: 345px;
+}
+div.btn-multi {
+    left: 257px;
+    top: 345px;
+}
+div.btn-modulo {
+    left: 113px;
+    top: 309px;
+}
+div.btn-bra-open {
+    display: none;
+    left: 161px;
+    top: 309px;
+}
+div.btn-bra-close {
+    display: none;
+    left: 209px;
+    top: 309px;
+}
+div.btn-div {
+    left: 257px;
+    top: 309px;
+}
+.warning-left {
+    color:red;
+    font-size: .45em;
+    float: left;
+    padding-left: 5px;
+}
+
